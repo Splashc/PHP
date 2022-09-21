@@ -1,8 +1,10 @@
 <?php
-$var1 = 10;
-$var2 = 20;
+$getal1 = 10;
+$getal2= 20;
 
-if($var1 > $var2) {
-    echo "uitkomst: " . (($var * 2))
+if($getal1 > $getal2) {
+    echo "uitkomst: " . (($getal1 * 2) + $getal2);
+} else {
+    echo "uitkomst:" . (($getal2 * 2) + $getal1);
 }
 ?>
