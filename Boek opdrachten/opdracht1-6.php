@@ -1,12 +1,15 @@
 <?php 
     $uur = date("H");
-    $temp = 21;
-    $luch = 80;
+    $temp = 20;
+    $luch = 85;
 
     if ($uur < 8 || $uur >= 17) {
-        echo"lol";
+        echo"Airco uit zetten";
+    }
+    else if($temp < 20 && $luch <= 85){
+        echo"Airco uit zetten";
     }
     else {
-        if($temp < 20 &&  $luch < 85)
-        echo 
+        echo"Airco aan zetten";
     }
+?>

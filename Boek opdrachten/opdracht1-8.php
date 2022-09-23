@@ -14,6 +14,6 @@ if($leeftijd >= 18) {
     }
 }
 else {
-    echo "je mag niet stemmne";
+    echo "je mag niet stemmnen";
 }
 ?>
