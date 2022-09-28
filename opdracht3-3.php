@@ -1,5 +1,7 @@
 <?php 
-for ($i=0; $i < 20; $i++ . $i++) { 
-    echo"$i<br>";
+$a = 0;
+while ($a <= 20) {
+    echo "$a<br>";
+    $a+=2;
 }
 ?>

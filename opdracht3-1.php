@@ -1,7 +1,7 @@
 <?php 
-for ($i=0; $i < 11; $i++) { 
-    echo "Waarder van de teller is: " . $i . "<br>";
+$a = 0;
+while ($a <= 9) {
+    $a++;
+    echo "Waarder van de teller is: " . $a . "<br>";   
 }
-
-
 ?>
